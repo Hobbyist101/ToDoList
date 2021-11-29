@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To Do List Webapp</title>
+    </head>
+    <body>
+        <div class="content">
+            <h1 class="h1">
+                To-Do-List
+            </h1>
+            <div class="container">
+                <div class="navbar">
+                    <select name="progress" id="progress" class="btn priority">
+                        <option value="ongoing" class="progress">
+                            On Going
+                        </option>
+                        <option value="completed" class="progress">
+                            Completed
+                        </option>
+                    </select>
+                    <select name="sort" id="sort" class="btn sort">
+                        <option value="date">
+                            Date
+                        </option>
+                        <option value="priority">
+                            Priority
+                        </option>
+                    </select>
+                    <button class="btn add">
+                        +
+                    </button>
+                </div>
+                <div class="panel">
+                    <form id="form">
+                        <input type="text" name="activity" id="activity" class="input" placeholder="Activity" required>
+                        <span class="close">&times;</span>
+                        <br>
+                        <input type="text" name="desc" id="desc" class="input" placeholder="Description (Optional)">
+                        <br>
+                        <input type="date" name="date" id="date" class="input" required>
+                        <br>
+                        <select name="priority" id="priority" class="input" required>
+                            <option value="urgent">
+                                Urgent
+                            </option>
+                            <option value="important">
+                                Important
+                            </option>
+                            <option value="goal">
+                                Goal
+                            </option>
+                        </select>
+                        <button class="input enter">
+                            Enter
+                        </button>
+                    </form>
+                </div>
+                <div class="taskContainer">
+                    <div class="taskSec"></div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            This is an Alpha Project by
+            <a href="https://www.github.com/hobbyist101/todolist">
+                Hobbyist101</a>
+            for the
+            <a href="https://www.theodinproject.com">The Odin Project</a>
+        </footer>
+        <script src="main.js"></script>
+    </body>
+</html>
