@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+.h1{
+    margin: 0;
+    background-color: blue;
+}
+
+.container{
+    height: 1000px;
+    margin: 0;
+    padding-top: 10px;
+    border: 3px solid black;
+    border-radius: 0 0 10px 10px;
+    background: steelblue;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+}
+
+.navbar .btn{
+    height: 50px;
+    width: 100px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.navbar .add{
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* Form */
+.panel{
+    display: none;
+    width: 50%;
+    font-size: 30px;
+    margin: 25% auto;
+    color: white;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+#form{
+    height: 180px;
+    background-color: lightblue;
+    border-radius: 15px;
+}
+
+.close{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus,
+.enter:hover,
+.enter:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.input{
+    width: 80%;
+    margin: 0;
+}
+
+#activity{
+    width: 70%;
+}
+
+.enter{
+    height: 25px;
+    width: 20%;
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+
+/* Task Container */
+.taskContainer{
+    display: none;
+    height: 90%;
+    padding: 10px;
+    z-index: 1;
+}
+
+.taskSec{
+    height: 11%;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.sec{
+    margin: 5px 10px;
+}
+
+#Activity{
+    width: 15%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#Desc{
+    width: 30%;
+}
+
+#Date{
+    width: 20%;
+}
+
+#Priority{
+    width: 15%;
+}
+
+/* Footer */
+.footer{
+    margin: 10px;
+    text-align: center;
+}
+
+@media (min-width: 768px){
+    .container{
+        padding: 0;
+    }
+    
+    .navbar{
+        width: 25%;
+        padding: 50px;
+    }
+    
+    .navbar .btn{
+        height: 50px;
+        width: 80%;
+        margin: 2%;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+    
+    .navbar .add{
+        width: 50px;
+        border-radius: 50%;
+    }
+
+    .panel{
+        height: 55%;
+        width: 60%;
+        margin: auto;
+    }
+    
+    #form{
+        height: 80%;
+        width: 50%;
+        border-radius: 20px;
+        margin: auto;
+    }
+    
+    .close{
+        
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .close:hover{
+        cursor: pointer;
+    }
+
+    .input{
+        height: 10%;
+        width: 80%;
+        margin: 15px;
+        margin-right: 10px;
+    }
+    
+    #activity{
+        width: 75%;
+    }
+    
+    .enter{
+        width: 20%;
+    }
+    
+    .taskContainer{
+        width: 75%;
+        margin-left: 25%;
+        margin-top: -5%;
+        border-radius: 10px;
+    }
+}
