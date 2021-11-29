@@ -1,5 +1,5 @@
 # To Do List 
-## Demonstration Only, For The Odin Project
+## Demonstration Only, Inspired by The Odin Project
 *For ToDoList Application, Please Refer To >[Super-Productivity](https://github.com/johannesjo/super-productivity)*
 
 **Screenshot**
@@ -9,7 +9,7 @@
 ---
 **Demo**
 
-[link](https://hobbyist101.github.io/ToDoList/ "Github Page")
+[Sample Page](https://hobbyist101.github.io/ToDoList/ "Github Page")
 
 |Contact Me |                                    |
 |-----------|------------------------------------|
