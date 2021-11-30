@@ -1,5 +1,5 @@
-import { compareAsc, isPast } from "date-fns";
 import './index.css';
+import { compareAsc, isPast } from "date-fns";
 
 (function(){
     class Task{
